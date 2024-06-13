@@ -36,7 +36,7 @@ locals {
 
 source "amazon-ebs" "ubuntu" {
 
-  ami_name        = "learn-packer-linux-aws-${local.timestamp}"
+  ami_name        = "${var.build_name}-${local.timestamp}"
   ami_description = "Created on ${local.formatted_date} by Unix"
   instance_type   = var.aws_instance_type
   ssh_username    = "ubuntu"
