@@ -1,6 +1,6 @@
 # HashiCorp Packer Builds for AWS
 
-This is a Packer project to build AWS AMI's
+This is a Packer project to build AWS Ubuntu AMI's
 
 ## Assumptions
 
@@ -29,6 +29,14 @@ Although not strictly necessary this is a recommended tree structure to get thin
 
   - **packer-aws.pkr.hcl** - Main packer file
   - **update.sh** - This updates the AMI OS
+
+## AWS Credentials
+
+Ensure you have created access keys for the AWS user and they are stored on your local machine.
+
+```bash
+$ aws configure
+```
 
 ## Output
 
