@@ -32,7 +32,7 @@ Although not strictly necessary this is a recommended tree structure to get thin
 
 ## Output
 
-Once the AMI is created it will be stored in the Images > AMIs section of the WebUI.
+Once the AMI is created it will be stored in the **Images > AMIs** section of the WebUI.
 
 ## Usage
 
